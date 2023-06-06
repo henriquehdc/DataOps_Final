@@ -3,7 +3,7 @@ name: python MySql
 on: push  
 
 jobs:
-  biuld-linux:
+  build-linux:
     runs-on: ubuntu-latest
     strategy:
       max-parallel: 5
