@@ -12,7 +12,7 @@ from sqlalchemy import create_engine
 from sqlalchemy.types import Integer, Float, String
 import numpy as np
 
-engine = create_engine('mysql+mysqlconnector://root:root@34.31.69.51:3306/trabdataops')
+engine = create_engine('mysql+mysqlconnector://root:root@34.31.69.51:3306/trabfinaldb')
 
 def scrape_this(uri="/pages/forms/"):
   page = requests.get("https://scrapethissite.com" + uri)
